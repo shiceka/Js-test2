@@ -15,7 +15,7 @@ const getClassAverage = (arr, m) => {
   for (let j = 0; j < marks.length; j++) {
     ave += marks[j];
   }
-  let sum = ave / 3;
+  let sum = ave / arr.length;
   total = (sum / m) * 100;
   return total;
 };
